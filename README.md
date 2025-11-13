@@ -127,6 +127,12 @@ pivot_df = (
       .agg(avg("Item_Outlet_Sales").alias("Avg_Sales"))).display()
 ```
 
+## Contact
+
+Feel free to reach out to me:
+
+- LinkedIn: [linkedin.com/in/yourusername](https://www.linkedin.com/in/stavan-mohod-3817a7331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
 
 
 
