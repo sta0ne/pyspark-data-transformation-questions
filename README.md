@@ -1,5 +1,5 @@
 # pyspark-data-transformation-questions
-“20 PySpark data transformation questions solved on Databricks”
+
 ![](https://github.com/sta0ne/pyspark-data-transformation-questions/blob/main/pyspark%20logo.jpg).
 
 # 🧩 20 PySpark Data Transformation Questions (Solved on Databricks)
