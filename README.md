@@ -127,6 +127,10 @@ pivot_df = (
     df.groupBy("Outlet_Type").pivot("Outlet_Location_Type")
       .agg(avg("Item_Outlet_Sales").alias("Avg_Sales"))).display()
 ```
+## 📘 Notebook Link
+You can view the complete Databricks notebook here:  
+👉 [View PySpark Notebook](https://dbc-d6558738-fc40.cloud.databricks.com/editor/notebooks/2627120730897005?o=2484184764536464)
+
 
 ## Contact
 
