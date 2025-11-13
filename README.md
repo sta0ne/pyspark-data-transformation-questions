@@ -13,16 +13,16 @@ Each question includes a short description and its PySpark solution.
 df = spark.read.format('csv').option('Inferschema',True).option('header',True).load('/Volumes/workspace/pyspark1/big_sales/csvsource/')
 ```
 
-###🔹 Q2. Rename the column `Item_Outlet_Sales` to `Total_Sales`
+### 🔹 Q2. Rename the column `Item_Outlet_Sales` to `Total_Sales`
 ```python
 df.withColumnRenamed('Item_Outlet_Sales','Total_Sales').display()
 ```
 
-###🔹 Q3. Drop the column Outlet_Establishment_Year
+### 🔹 Q3. Drop the column Outlet_Establishment_Year
 ```python
 df.withColumn('Outlet_Age',2009 - col('Outlet_Establishment_Year')).display()
 ```
-###🔹 Q4.Drop the column Outlet_Establishment_Year after computing Outlet_Age.
+### 🔹 Q4.Drop the column Outlet_Establishment_Year after computing Outlet_Age.
 ```python
 df.drop('Outlet_Establishment_Year').display()
 ```
